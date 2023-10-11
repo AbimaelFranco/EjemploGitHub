@@ -47,9 +47,6 @@ while True:
     elif opcion == "3":
         print("Resultado:", multiplicar(num1, num2))
 
-    elif opcion == "4":
-        print("Resultado:", dividir(num1, num2))
-
     else:
         print("Opción no válida")
 
@@ -57,3 +54,7 @@ while True:
 ################################################################################
 ################################################################################
 #Modificacion de calculadora
+
+def funcion_prueba():
+    cadena = "esta es una funcion de prueba"
+    print(cadena)
